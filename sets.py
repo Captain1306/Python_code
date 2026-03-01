@@ -1,0 +1,18 @@
+data = {1,2,3,2,"Hello","Bye",4,2}
+print(data)
+print(len(data))
+#empty set
+data2 = set()
+print(data2)
+data2.add(1)
+data2.add(2)
+data2.add(3)
+data2.add(2)
+print(data2)
+data2.remove(3)
+print(data2)
+data2.add((1,2,3,4))
+print(data2)
+print(data2.pop())
+print(data.union(data2))
+print(data.intersection(data2))
