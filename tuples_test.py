@@ -1,0 +1,7 @@
+tup = (1,2,3,2,4)
+print(tup[1:3])
+print(tup.index(3))
+print(tup.count(2))
+Grades = ("C","D","A","A","B","B","A")
+print(Grades.count("A"))
+print(Grades.count("B"))
