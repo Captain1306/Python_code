@@ -5,11 +5,10 @@ print("Orignal: ",var)
 print("Copy: ",co)
 var2=np.array([6,7,8,9,0])
 v=var2.view()
+print("variable: ",var2)
+print("viewed: ",v)
+#the main diff between them is copy func copy the data in new array but view func represent the orignal data change in view will represent the change in orignal
+co[1]=40
+v[1]=40
+print(co)
 print(v)
-v=np.array([1,2,3,4])
-c=var.copy()
-print("Orignal: ",v)
-print("Copy: ",c)
-v2=np.array([6,7,8,9,0])
-see=var2.view()
-print(see)
