@@ -1,9 +1,15 @@
 import numpy as np
-x=np.array([10,40,80,90,30,5])
-y=np.array([10,70,90,80])
-print(y)
-print("Hello World")
-x2=np.array([101,402,803,904,305,56])
-y2=np.array([1012,7045,90243,80234])
-print(y2)
-print("Hello World")
+# var=np.array([11,41,80,91,30,5])
+# #searching in array
+# x=np.where(var==80)
+# print(x)
+# #finding even numbers in array
+# y=np.where(var%2==0)
+# print(y)
+# var2=np.array([1,2,3,4,5])
+# #searching using binary
+# z=np.searchsorted(var2,4)
+# print(z)
+arr=np.array([3,20,10,5,8,1])
+arr=np.sort(arr)
+print(arr)
