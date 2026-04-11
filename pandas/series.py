@@ -5,5 +5,3 @@ print(a)
 dict={"Name":['python','java','c++'],"ranking":['1','2','3'],"user friendly":[True,False,False]}
 b=pd.Series(dict)
 print(b)
-for i in range(10):
-    print("Hello")
