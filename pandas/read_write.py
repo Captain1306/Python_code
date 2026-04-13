@@ -1,0 +1,8 @@
+import pandas as pd
+var1=pd.read_csv("D:\\Programming\\test_Book1.csv")
+print(var1.index)
+print(var1.columns)
+print(var1.describe())
+print(var1.head())
+print(var1.tail())
+print(var1.head(2))
